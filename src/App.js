@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <>
-            <Routes basename='blog-web'>
+            <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
