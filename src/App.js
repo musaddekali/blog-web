@@ -30,8 +30,8 @@ const App = () => {
 
     return (
         <>
-            <Routes  basename={process.env.PUBLIC_URL}>
-                <Route path="/" element={<Layout />}>
+            <Routes>
+                <Route path="blog-web/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
                     <Route path="update-profile" element={<UpdateProfile />} />
