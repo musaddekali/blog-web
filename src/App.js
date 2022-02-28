@@ -31,7 +31,7 @@ const App = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Layout />}>
+                <Route path={process.env.PUBLIC_URL + '/'} element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
                     <Route path="update-profile" element={<UpdateProfile />} />
