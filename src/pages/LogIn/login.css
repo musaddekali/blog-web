@@ -1,0 +1,36 @@
+.login .login-form {
+  border: 1px solid var(--gray-400);
+  max-width: 600px;
+  margin: auto;
+  padding: 30px 1rem;
+  border-radius: 0.25rem;
+}
+.login .login-form h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-clr);
+}
+.login .login-input {
+  padding: 6px 8px;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: 0.3s;
+  border: 1px solid var(--gray-400);
+  font-size: 0.875rem;
+}
+
+.login .login-input:focus {
+  outline: none;
+  border-color: var(--primary-clr);
+}
+
+.login .login-btn {
+  background: var(--primary-clr);
+  color: var(--white);
+  transition: 0.3s;
+}
+.login .login-btn:hover {
+  opacity: 0.9;
+}

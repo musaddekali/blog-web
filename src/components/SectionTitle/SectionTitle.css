@@ -1,0 +1,12 @@
+.section-title h2 {
+  border-bottom: 1px solid #1c996345;
+  margin-bottom: 26px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.section-title span {
+  padding-bottom: 20px;
+  display: inline-block;
+  border-bottom: 3px solid var(--primary-clr);
+  margin-bottom: -2px;
+}

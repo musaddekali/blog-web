@@ -1,0 +1,15 @@
+.go-back {
+  font-size: 12px;
+  padding: 0.25rem;
+  border-radius: 0.35rem;
+  margin-bottom: 0.5rem;
+  background: var(--primary-clr);
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.go-back:hover {
+  opacity: 0.8;
+}

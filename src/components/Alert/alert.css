@@ -1,0 +1,29 @@
+.alert-container {
+  position: fixed;
+  right: 1rem;
+  top: 5rem;
+  z-index: 9999;
+}
+
+.alert {
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.alert > svg {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.btn.alert-close {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn.alert-close:hover {
+  transform: scale(1.25);
+}

@@ -1,0 +1,151 @@
+:root {
+  --white: #fff;
+  --gray-100: hsl(210, 20%, 98%);
+  --gray-200: hsl(210, 16%, 93%);
+  --gray-300: hsl(210, 14%, 89%);
+  --gray-400: hsl(210, 14%, 83%);
+  --gray-500: hsl(210, 11%, 71%);
+  --gray-600: hsl(208, 7%, 46%);
+  --gray-700: hsl(210, 9%, 31%);
+  --gray-800: hsl(210, 10%, 23%);
+  --gray-900: hsl(210, 11%, 15%);
+  --blue: hsl(216, 98%, 52%);
+  --indigo: hsl(263, 90%, 51%);
+  --purple: hsl(261, 51%, 51%);
+  --pink: hsl(330, 67%, 52%);
+  --red: hsl(354, 70%, 54%);
+  --orange: hsl(27, 98%, 54%);
+  --yellow: hsl(45, 100%, 51%);
+  --green: hsl(152, 69%, 31%);
+  --teal: hsl(162, 73%, 46%);
+  --cyan: hsl(190, 90%, 50%);
+  --black: hsl(0, 0%, 0%);
+  --github-bg: hsl(216, 28%, 7%);
+
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --text-lite: var(--gray-500);
+  --primary-clr: var(--teal);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+main.main {
+  padding-top: 5rem;
+}
+
+section {
+  padding-bottom: 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.img-fill {
+  width: 100%;
+  max-width: 150%;
+  height: 100%;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.spacer-40 {
+  width: 20px;
+  height: 1px;
+  margin: 20px 0;
+  border-top: 1px solid var(--text-lite);
+  display: inline-block;
+}
+
+.post-date,
+.post-read {
+  color: var(--text-lite);
+}
+
+.btn.follow {
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 50px;
+  background: var(--primary-clr);
+  color: var(--white);
+  border-color: var(--primary-clr);
+  display: inline-block;
+  text-align: center;
+  box-shadow: none;
+}
+.btn.follow:hover {
+  background: var(--white);
+  color: var(--text-primary);
+}
+.btn-success {
+  background: var(--primary-clr);
+  border: 1px solid var(--primary-clr);
+  opacity: 0.8;
+}
+.btn-success:hover {
+  background: var(--primary-clr);
+  opacity: 1;
+  border-color: var(--primary-clr);
+}
+
+/* file upload style  */
+
+.bw-file-upload-wrap input[type="file"] {
+  display: none;
+}
+
+label.bw-file-upload {
+  background: var(--primary-clr);
+  color: var(--white);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 2px 5px 0 var(--gray-400);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+label.bw-file-upload > svg {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+label.bw-file-upload:hover {
+  box-shadow: none;
+  opacity: 0.8;
+}

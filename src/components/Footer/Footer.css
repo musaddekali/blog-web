@@ -1,0 +1,63 @@
+.footer {
+  padding: 50px 0 30px 0;
+  font-size: 0.9375rem;
+  background: var(--github-bg);
+  color: var(--gray-300);
+}
+.footer h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.footer ul li {
+  line-height: 1;
+  padding: 10px 0;
+}
+.footer ul li:first-child {
+  padding-top: 0;
+}
+.footer ul li a {
+  padding-left: 12px;
+  color: var(--gray-300);
+  position: relative;
+}
+.footer ul li a::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border: 2px solid;
+  border-color: transparent #1c9963 #1c9963 transparent;
+  background: transparent;
+  transform: rotate(-45deg) translateY(-50%);
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.footer ul li a:hover {
+  color: var(--primary-clr);
+}
+.footer .contacts {
+  font-size: 14px;
+  line-height: 2;
+}
+.footer .contacts p {
+  margin-bottom: 0;
+}
+.footer .contacts address {
+  margin-bottom: 0;
+}
+.footer .social-links {
+  display: flex;
+  align-items: center;
+}
+.footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-clr);
+}
+.footer .social-links a:hover {
+  opacity: 0.8;
+}
