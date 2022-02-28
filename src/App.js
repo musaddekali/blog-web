@@ -31,7 +31,7 @@ const App = () => {
     return (
         <>
             <Routes>
-                <Route path="blog-web/" element={<Layout />}>
+                <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
                     <Route path="update-profile" element={<UpdateProfile />} />
