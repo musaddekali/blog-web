@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <>
-            <Routes>
+            <Routes basename="/blog-web">
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
