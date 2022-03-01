@@ -23,14 +23,14 @@ import SignIn from './pages/SignIn/SignIn';
 const App = () => {
     const { authorPageURL } = useGlobalContext();
     const { pathname } = useLocation();
-
+    console.log(process.env.PUBLIC_URL);
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
     return (
         <>
-            <Routes>
+            <Routes basename="/blog-web">
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path={authorPageURL} element={<PrivateRoute><Author /></PrivateRoute>} />
