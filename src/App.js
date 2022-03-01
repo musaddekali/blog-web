@@ -23,6 +23,7 @@ import SignIn from './pages/SignIn/SignIn';
 const App = () => {
     const { authorPageURL } = useGlobalContext();
     const { pathname } = useLocation();
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
