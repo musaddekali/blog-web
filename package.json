@@ -1,6 +1,5 @@
 {
   "name": "blog-web",
-  "homepage": "https://musaddekali.github.io/blog-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
