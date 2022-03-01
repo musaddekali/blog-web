@@ -15,7 +15,7 @@ const LetestPosts = () => {
             Add New Post! <FaPlusCircle />
           </Link>
         </div>
-        <SectionTitle>Letest Posts</SectionTitle>
+        <SectionTitle>Letest Posts netlyfy</SectionTitle>
         <div className="row">
           {posts.length ? (
             posts.map((item) => {
