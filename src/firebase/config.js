@@ -12,7 +12,7 @@ import { getAuth } from 'firebase/auth';
 //   appId: "1:809329850679:web:e540fa6f2d04ba561202b2"
 // };
 
-// firebase api key
+// firebase api key will goes inside (.env.local) file
 // REACT_APP_API_KEY = AIzaSyB-4wc-4Yvanije9v6D7t3pM4C2xqY47Q0
 // REACT_APP_AUTH_DOMAIN = blog-web-mahid.firebaseapp.com
 // REACT_APP_PROJECT_ID = blog-web-mahid
